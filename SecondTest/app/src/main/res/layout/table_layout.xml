@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="Open..." />
+
+        <TextView
+            android:textSize="20sp"
+            android:gravity="end"
+            android:text="ctrl+o" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="Save..."/>
+        <TextView
+            android:textSize="20sp"
+            android:gravity="end"
+            android:text="ctrl+s"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="Save as..."/>
+        <TextView
+            android:textSize="20sp"
+            android:gravity="end"
+            android:text="ctrl+shift+s"/>
+    </TableRow>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="2dp">
+    </ImageView>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="20sp"
+            android:text="X Import..."/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="X Import..."/>
+        <TextView
+            android:textSize="20sp"
+            android:gravity="end"
+            android:text="ctrl+e"/>
+    </TableRow>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="2dp">
+    </ImageView>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="20sp"
+            android:text="Quit"/>
+    </TableRow>
+
+</TableLayout>

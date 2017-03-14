@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:background="#e71308"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:background="#f53d05"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <ImageView
+        android:layout_alignParentEnd="true"
+        android:background="#f5e605"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <ImageView
+        android:id="@+id/blue"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#0905f5"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <ImageView
+        android:layout_alignTop="@id/blue"
+        android:layout_toStartOf="@+id/blue"
+        android:background="#4dd336"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <ImageView
+        android:layout_alignTop="@id/blue"
+        android:layout_toEndOf="@id/blue"
+        android:background="#c1449e"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:background="#f46794"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</RelativeLayout>
