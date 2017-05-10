@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetStart="0dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/back"/>
+
+            <ImageView
+                android:id="@+id/mode"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="20dp"
+                android:clickable="true"
+                android:src="@drawable/morning"/>
+
+            <TextView
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginEnd="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:text="保存"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:hint="标题"/>
+
+    <EditText
+        android:id="@+id/content"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"/>
+
+</LinearLayout>
