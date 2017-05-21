@@ -189,17 +189,17 @@
         break;
         
 #### 软件截图
-主界面
-![主界面](https://github.com/YigangZhao/MobileSoftwareDevelopment/blob/master/Memo/%E5%9B%BE%E7%89%87/%E4%B8%BB%E7%95%8C%E9%9D%A2.png)
+##### 主界面
+![](https://github.com/YigangZhao/MobileSoftwareDevelopment/blob/master/Memo/%E5%9B%BE%E7%89%87/%E4%B8%BB%E7%95%8C%E9%9D%A2.png)
 
-删除笔记
-![删除笔记](https://github.com/YigangZhao/MobileSoftwareDevelopment/blob/master/Memo/%E5%9B%BE%E7%89%87/%E5%88%A0%E9%99%A4.png)
+##### 删除笔记
+![](https://github.com/YigangZhao/MobileSoftwareDevelopment/blob/master/Memo/%E5%9B%BE%E7%89%87/%E5%88%A0%E9%99%A4.png)
 
-夜间模式
-![夜间模式](https://github.com/YigangZhao/MobileSoftwareDevelopment/blob/master/Memo/%E5%9B%BE%E7%89%87/%E5%A4%9C%E9%97%B4%E6%A8%A1%E5%BC%8F.png)
+##### 夜间模式
+![](https://github.com/YigangZhao/MobileSoftwareDevelopment/blob/master/Memo/%E5%9B%BE%E7%89%87/%E5%A4%9C%E9%97%B4%E6%A8%A1%E5%BC%8F.png)
 
-新建编辑笔记
-![新建编辑笔记](https://github.com/YigangZhao/MobileSoftwareDevelopment/blob/master/Memo/%E5%9B%BE%E7%89%87/%E6%96%B0%E5%BB%BA.png)
+##### 新建编辑笔记
+![](https://github.com/YigangZhao/MobileSoftwareDevelopment/blob/master/Memo/%E5%9B%BE%E7%89%87/%E6%96%B0%E5%BB%BA.png)
 
-查询笔记
-![查询笔记](https://github.com/YigangZhao/MobileSoftwareDevelopment/blob/master/Memo/%E5%9B%BE%E7%89%87/%E6%9F%A5%E6%89%BE.png)
+##### 查询笔记
+![](https://github.com/YigangZhao/MobileSoftwareDevelopment/blob/master/Memo/%E5%9B%BE%E7%89%87/%E6%9F%A5%E6%89%BE.png)
